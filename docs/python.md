@@ -46,7 +46,13 @@ There are several ways in which you can run a Python program - (show in class)
 
 ## First python program
 
-Let's begin the journey with a very small piece of code, which is a tradition when learning a new language. So the job is to print out a message - Hello World. Shown are two ways to execute it
+Let's begin the journey with a very small piece of code, which is a tradition when learning a new language. So the job is to print out a message - Hello World. The syntax is, 
+
+```
+print('Hello World')
+```
+
+Shown are two ways to execute it-
 
 ### Interactively
 
