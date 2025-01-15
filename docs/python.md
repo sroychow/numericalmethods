@@ -10,6 +10,7 @@ Python is a high-level, general-purpose programming language. Its design philoso
 * Python 2 was launched in October 2000 and has been, and still is, very widely used.
 * Python 3 was launched in December 2008 and is a major revision to the language that is not backward compatible.
 * Python 3 is the future of the Python language and we shall follow this standard in practice.
+* The [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) lists out the essential philosophy of python as a programming language.
 
 # Why python is popular?
 
@@ -27,8 +28,28 @@ Firstly, you will learn about basics of python programming. Next, we shall move 
 
 * Python is an example of a hybrid programming language - as it allows the user to write procedural code, to use objects in an object oriented manner, and to write functional programs.
 
-* Python is a dynamically typed language.
+* Python uses dynamic type.
 
-* Python is not a precompiled language in the way that some other languages (Execution model to be discussed in class).
+* Python is not a precompiled language in the way that some other languages, it is interpreted (Execution model to be discussed in class). The way a Python interpretar works at runtime is explained below in brief:-
+  * At first the program is checked for syntax errors.
+  * The human readable code is compiled into an intermediate machine code. (we shall see files with _.pyc_ extension)/
+  * The compiled intermediate version is executed by the interpreter.
 
-* The [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python) lists out the essential philosophy of python as a programming language.
+# How to execute a Python code?
+
+There are several ways in which you can run a Python program - (show in class)
+* Interactively using the Python interpreter.
+* Stored in a ﬁile and run using the Python command (usual convension is to save the file with _.py_ extension)
+* Run as a script ﬁile specifying the Python interpreter to use within the script ﬁile
+
+# Now let's code
+
+## First python program
+
+Let's begin the journey with a very small piece of code, which is a tradition when learning a new language. So the job is to print out a message - Hello World. Shown are two ways to execute it
+
+### Interactively
+
+[Running interactively](images/helloWorld1.png)
+
+
