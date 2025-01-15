@@ -50,6 +50,8 @@ Let's begin the journey with a very small piece of code, which is a tradition wh
 
 ### Interactively
 
-[Running interactively](images/helloWorld1.png)
+![Running interactively](images/helloWorld1.png)
+
+![Running via script](images/helloWorld2.png)
 
 
