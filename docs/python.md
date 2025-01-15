@@ -54,8 +54,17 @@ print('Hello World')
 
 Shown are two ways to execute it-
 
-![Running interactively](https://github.com/sroychow/numericalmethods/blob/main/images/helloWorld1.png)
+![Running interactively](../images/helloWorld1.png)
 
 ![Running via script](../images/helloWorld2.png)
 
+### Taking user input
 
+Let's take some input from the user, and then print it on the screen. Syntax is below,
+
+```
+user_name = input('Enter your name: ')
+print('Hello ', user_name)
+```
+
+* Here, user_name is a variable used to store the value of the input given by the user. A variable is a named area of the computers’ memory used to hold some data (strings, integers, float, boolean etc)
