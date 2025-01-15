@@ -56,7 +56,7 @@ Shown are two ways to execute it-
 
 ### Interactively
 
-![Running interactively](images/helloWorld1.png)
+![Running interactively](https://github.com/sroychow/numericalmethods/blob/main/images/helloWorld1.png)
 
 ![Running via script](images/helloWorld2.png)
 
