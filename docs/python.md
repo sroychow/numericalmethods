@@ -54,8 +54,10 @@ print('Hello World')
 
 Shown are two ways to execute it-
 
+Running interactively
 ![Running interactively](../images/helloWorld1.png)
 
+Running via script
 ![Running via script](../images/helloWorld2.png)
 
 ### Taking user input
@@ -68,3 +70,31 @@ print('Hello ', user_name)
 ```
 
 * Here, user_name is a variable used to store the value of the input given by the user. A variable is a named area of the computers’ memory used to hold some data (strings, integers, float, boolean etc)
+
+# Variables
+
+Let's look at the following snippet and understand what's happening.
+
+```
+dummy = 'UPES'
+print('University Name:', user_name)
+print(type(dummy))
+```
+The output of this snippet is,
+```
+UPES
+<class 'str'>
+```
+
+Here, the variable _dummy_ is being assigned a _string_ value. The **type()** is an in-built python function, which tells what is the type of any object. Common built-in python types,
+
+| Type         | Value description | Mutability |
+|:-------------|:------------------|:-----------|
+| bool         | Boolean Value     |     No     |
+|:-------------|:------------------|:-----------|
+| complex      | Complex number with Real and
+                Imaginary parts     |     No     |
+|:-------------|:------------------|:-----------|
+
+
+
