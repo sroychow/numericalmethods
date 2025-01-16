@@ -106,6 +106,8 @@ Here, the variable _dummy_ is being assigned a _string_ value. The **type()** is
 In object-oriented (OO) and functional programming, an immutable object is an object whose state cannot be modified after it is created.
 
 ## Dynamic type
+The snipped below demonstrates what is referred to in Python as Dynamic Typing. The type of the data held
+by a variable can _Dynamically_ change as the program executes, unlike many other languages like C, C++ etc.
 
 ```
 dummy = 'UPES'
@@ -115,7 +117,7 @@ dummy = 2025
 print('Year:', dummy)
 print(type(dummy))
 ```
-The output of this snippet is,
+The output of the above is,
 
 ```
 UPES
