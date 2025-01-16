@@ -77,12 +77,12 @@ Let's look at the following snippet and understand what's happening.
 
 ```
 dummy = 'UPES'
-print('University Name:', user_name)
+print('University Name:', dummy)
 print(type(dummy))
 ```
 The output of this snippet is,
 ```
-UPES
+University Name UPES
 <class 'str'>
 ```
 
@@ -120,8 +120,31 @@ print(type(dummy))
 The output of the above is,
 
 ```
-UPES
+University Name UPES
 <class 'str'>
-2025
+Year 2025
 <class 'int'>
 ```
+
+# Python Statements
+
+A statement is an instruction that the Python interpreter can execute. In many cases a statement is a single line in
+your program but it is also possible for a statement to extend over several lines
+particularly if this helps the readability or layout of the code.
+
+```
+print('Hello', user_name)
+print('The total population for’,
+    city,
+    'was',
+    number_of_people_in_city)
+6 + 7
+```
+
+Python statements can be (not an inclusive list),
+* The assignment statement, using a single equals sign _=_.
+* The _if_ statement, where some conditional logic flow is followed.
+* The _for_ statement, used in iterations, each instance of an interation executes a block of code.
+* The _while_ statement, which executes a block of code as long as its condition is true.
+* _import_ statement, which is used to import modules(libraries) whose functions/variables can be used in your program.
+
