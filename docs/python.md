@@ -103,7 +103,23 @@ Here, the variable _dummy_ is being assigned a _string_ value. The **type()** is
 | dict| Associative array of key and value pairs. Can contain mixed types. | Yes |
 |:-------------|:------------------|:-----------|
 
+In object-oriented (OO) and functional programming, an immutable object is an object whose state cannot be modified after it is created.
 
+## Dynamic type
 
+```
+dummy = 'UPES'
+print('University Name:', dummy)
+print(type(dummy))
+dummy = 2025
+print('Year:', dummy)
+print(type(dummy))
+```
+The output of this snippet is,
 
-
+```
+UPES
+<class 'str'>
+2025
+<class 'int'>
+```
