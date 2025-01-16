@@ -44,6 +44,13 @@ There are several ways in which you can run a Python program - (show in class)
 * Stored in a ﬁile and run using the Python command (usual convension is to save the file with _.py_ extension)
 * Run as a script ﬁile specifying the Python interpreter to use within the script ﬁile
 
+# Installing python on your laptops.
+
+* For users with Windows, please follow the instructions [here](https://www.geeksforgeeks.org/how-to-install-python-on-windows/)
+* For Linux, you should aleady have python pre-installed. Just open the terminal and type ```python3 --version```.
+
+**Note** - We shall use Python 3 for this course.
+
 # Now let's code
 
 ## First python program
@@ -185,16 +192,17 @@ A list in python is an collection of single/multiple data types referenced in a 
 A dictionary is a collection of data values  stored in _key:value_ pair. Any element of an dictionary can be referenced via the key. See examples [here](https://www.w3schools.com/python/python_dictionaries.asp).
 
 ## Important modules in python
+
 * [Math](https://www.w3schools.com/python/python_math.asp)
 * [JSON](https://www.w3schools.com/python/python_json.asp)
 
-Others to follow on case to case basis
+Others to follow on case to case basis...
 
-# First set of problems
+# Problem Set 1
 
 * Write a Python program that converts temperature from Celsius to both Fahrenheit and Kelvin.
 * Write a program to check if a number is prime.
 * Write a program to generate the ﬁrst n numbers in the Fibonacci sequence, (n is taken as user input).
 * Write a program that classiﬁes a solution as acidic, neutral, or basic based on its pH value.
 * Write a program that calculates the range and maximum height of a projectile given initial velocity and launch angle. Here we shall use _math_ package to get common functions.
-* Write a program to perform matrix multiplication between two matrices.
+* Write a program to perform matrix multiplication between two matrices. You can choose arbitrary matrix sizes.
