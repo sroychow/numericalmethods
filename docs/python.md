@@ -170,3 +170,20 @@ print(sum)
 ## Arithmetic operators
 
 The list of arithmetic operations can be seen [here](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp).
+
+## Function definition
+
+A function in python is defined using _def_ statement. To execute a function, you need to call a function using it's name and passing any argument to it. Example is shown below,
+
+## Strings
+
+A string is an array of unicode characters. Python provides a large number of in-built functions for string operations. See the examples in the [webpage](https://www.w3schools.com/python/python_strings.asp)
+
+## List
+
+A list in python is an collection of single/multiple data types referenced in a single variable. Various elements are referenced via an _index_. See examples [here](https://www.w3schools.com/python/python_lists.asp) 
+
+## Dictionary
+
+A dictionary is a collection of data values  stored in _key:value_ pair. Any element of an dictionary can be referenced via the key. See examples [here](https://www.w3schools.com/python/python_dictionaries.asp).
+
