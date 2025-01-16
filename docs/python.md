@@ -147,4 +147,26 @@ Python statements can be (not an inclusive list),
 * The _for_ statement, used in iterations, each instance of an interation executes a block of code.
 * The _while_ statement, which executes a block of code as long as its condition is true.
 * _import_ statement, which is used to import modules(libraries) whose functions/variables can be used in your program.
+* Any line in a python script which starts with **#** will be treated as a comment line.
 
+## Indentation
+Python uses whitespace indentation while writing blocks of code (unlike other languages which use {}). Let's look at the syntax below,
+
+```
+# Computing the sum of first 100 integers
+sum = 0
+for i in range(1, 101):
+    sum += i
+print(sum)
+
+# Computing the sum of only the even numbers among first 100 integers
+sumeven = 0
+for i in range(1, 101):
+    if i%2 == 0:
+        sumeven += i
+print(sum)
+```
+
+## Arithmetic operators
+
+The list of arithmetic operations can be seen [here](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp).
