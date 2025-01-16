@@ -92,9 +92,18 @@ Here, the variable _dummy_ is being assigned a _string_ value. The **type()** is
 |:-------------|:------------------|:-----------|
 | bool         | Boolean Value     |     No     |
 |:-------------|:------------------|:-----------|
-| complex      | Complex number with Real and
-                Imaginary parts     |     No     |
+| complex      | Complex number with Real and Imaginary parts     |     No     |
 |:-------------|:------------------|:-----------|
+| int | Integer numbers | No |
+|:-------------|:------------------|:-----------|
+| float | Double-precision floating-point number. | No
+|:-------------|:------------------|:-----------| 
+| list | A collection of same or mixed type | Yes |
+|:-------------|:------------------|:-----------|
+| dict| Associative array of key and value pairs. Can contain mixed types. | Yes |
+|:-------------|:------------------|:-----------|
+
+
 
 
 
