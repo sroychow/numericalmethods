@@ -168,22 +168,30 @@ print(sum)
 ```
 
 ## Arithmetic operators
-
 The list of arithmetic operations can be seen [here](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp).
 
 ## Function definition
-
 A function in python is defined using _def_ statement. To execute a function, you need to call a function using it's name and passing any argument to it. Example is shown below,
 
 ## Strings
-
 A string is an array of unicode characters. Python provides a large number of in-built functions for string operations. See the examples in the [webpage](https://www.w3schools.com/python/python_strings.asp)
 
 ## List
-
 A list in python is an collection of single/multiple data types referenced in a single variable. Various elements are referenced via an _index_. See examples [here](https://www.w3schools.com/python/python_lists.asp) 
 
 ## Dictionary
-
 A dictionary is a collection of data values  stored in _key:value_ pair. Any element of an dictionary can be referenced via the key. See examples [here](https://www.w3schools.com/python/python_dictionaries.asp).
 
+## Important modules in python
+* [Math](https://www.w3schools.com/python/python_math.asp)
+* [JSON](https://www.w3schools.com/python/python_json.asp)
+Others to follow on case to case basis
+
+# First set of problems
+
+* Write a Python program that converts temperature from Celsius to both Fahrenheit and Kelvin.
+* Write a program to check if a number is prime.
+* Write a program to generate the ﬁrst n numbers in the Fibonacci sequence, (n is taken as user input).
+* Write a program that classiﬁes a solution as acidic, neutral, or basic based on its pH value.
+* Write a program that calculates the range and maximum height of a projectile given initial velocity and launch angle. Here we shall use _math_ package to get common functions.
+* Write a program to perform matrix multiplication between two matrices.
